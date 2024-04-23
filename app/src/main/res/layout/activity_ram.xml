@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RAM"
+    android:orientation="vertical"
+    android:background="@drawable/login_background"
+    android:padding="18dp">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HISTORY"
+        android:textColor="#FF9800"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:text="* The Ram Mandir is a partially constructed Hindu temple complex in Ayodhya, Uttar Pradesh, India
+The temple was inaugurated on 22 January 2024 after a prana pratishtha ceremony."
+/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:text="* The site of the temple has been the subject of communal tensions between Hindus and Muslims in India, as it is the former location of the Babri Masjid mosque, which was built between 1528 and 1529. The idols of Rama and Sita were placed in the mosque in 1949, before it was attacked and demolished in 1992.In 2019, the Supreme Court of India delivered the verdict to give the disputed land to Hindus for construction of a temple."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONSTRUCTION"
+            android:textColor="#FF9800"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:text="* The Shri Ram Janmabhoomi Teerth Kshetra trust began the first phase of construction of the Ram Mandir in March 2020.The COVID-19 pandemic lockdown in India caused a temporary suspension of the construction.On 25 March 2020, Ram's idol was moved to a temporary location in the presence of the Chief Minister of Uttar Pradesh, Yogi Adityanath. In preparation for the temple's construction, the Vishwa Hindu Parishad (VHP) organised a 'Vijay Mahamantra Jaap Anushthan."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:text="* The Ram temple complex, built in the traditional Nagara style, will be 380 feet in length (east-west direction), 250 feet in width and 161 feet in height, Rai had said earlier. Each floor of the temple will be 20 feet high and have a total of 392 pillars and 44 gates."/>
+    <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="For more Information,"
+          android:textColor="#FF9800"
+          android:textSize="23dp"
+          android:textStyle="bold"/>
+       <androidx.appcompat.widget.AppCompatButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/linkbtn"
+           android:text="Click here"
+           android:textColor="#FFC107"
+           android:textStyle="italic"
+           android:background="@drawable/login_background"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opening Time"
+        android:textColor="#FF9800"
+        android:textSize="24dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7.00 AM to 11.30 AM -2:00 PM to 07:00 PM"
+        android:textSize="22dp"
+        android:textColor="#FB5622"/><TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No entry pass is required for general Darshan. However, entry for special Aartis such as Mangala Aarti at 4 AM, Shringar Aarti at 6:15 AM, and Shayan Aarti at 10 PM requires an entry pass."
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Special Bocking"
+        android:textSize="18dp"
+        android:textColor="#FFEB3B"
+        android:id="@+id/bockingbtn"
+        android:textStyle="italic"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
+</LinearLayout>

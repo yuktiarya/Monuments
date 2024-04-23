@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RED"
+    android:orientation="vertical"
+    android:background="@drawable/login_background"
+    android:padding="18dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HISTORY"
+                android:textColor="#FF9800"
+                android:textSize="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:text="* The Red Fort or Lal Qila is a historic fort in the Old Delhi neighbourhood of Delhi, India, that historically served as the main residence of the Mughal emperors. Emperor Shah Jahan commissioned construction of the Red Fort on 12 May 1639, when he decided to shift his capital from Agra to Delhi."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:text="* The fort was plundered of its artwork and jewels during Nader Shah's invasion of the Mughal Empire in 1739. Most of the fort's marble structures were subsequently demolished by the British following the Indian Rebellion of 1857. The fort's defensive walls were largely undamaged, and the fortress was subsequently used as a garrison.
+
+On 15 August 1947, the first Prime Minister of India, Jawaharlal Nehru, raised the Indian flag above the Lahori Gate. Every year on India's Independence Day (15 August), the prime minister hoists the Indian tricolour flag at the fort's main gate and delivers a nationally broadcast speech from its ramparts through the Public Address System of Indian Army Corps of Signals. "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONSTRUCTION"
+                android:textColor="#FF9800"
+                android:textSize="30dp"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:text="* The Red Fort has an area of 254.67 acres enclosed by 2.41 kilometres of defensive walls,punctuated by turrets and bastions that vary in height from 18 metres (59 ft) on the river side to 33 metres (108 ft) on the city side. The fort is octagonal, with the north–south axis longer than the east–west axis. The marble, floral decorations and the fort's double domes exemplify later Mughal architecture.
+
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:text="* The Lahori and Delhi Gates were used by the public, and the Khizrabad Gate was for the emperor. The Lahori Gate is the main entrance, leading to a domed shopping area known as the Chatta Chowk (covered bazaar). "/>
+               <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="For more Information,"
+                android:textColor="#FF9800"
+                android:textSize="23dp"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/redinfo"
+                android:text="Click here"
+                android:textColor="#FFC107"
+                android:textStyle="italic"
+                android:background="@drawable/login_background"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Opening Time"
+                android:textColor="#FF9800"
+                android:textSize="24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tuesday-Sunday(Monday CLOSE)"
+                android:textSize="22dp"
+                android:textColor="#FB5622"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 	9:30 am – 4:30 pm"
+                android:textSize="22dp"
+                android:textColor="#FB5622"/>
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Red Fort remains open six days a week i.e. Tuesday- Sunday. On Mondays, it remains closed. An average of 2 hours can be spent at the Red Fort in Delhi."
+            android:textColor="@color/white"
+            android:textSize="18dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/special_booking"
+                android:textSize="18sp"
+                android:textColor="#FFEB3B"
+                android:id="@+id/redbtn"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

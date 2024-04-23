@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GOLD"
+    android:orientation="vertical"
+    android:background="@drawable/login_background"
+    android:padding="18dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HISTORY"
+                android:textColor="#FF9800"
+                android:textSize="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:text="* The Golden Temple, also known as Sri Darbar Sahib and Sri Harmandir Sahib, is located in the Indian city of Amritsar in India. The temple is the principal place of worship for the Sikh people, allowing equal entry to all casts, creeds, and races. The temple is part of a larger complex organized around an artificial pond, or sarovar, on which it appears to float, connected by a long causeway to the surrounding structures."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:text="* The Golden Temple of India's more formal name, Harmandir, comes from the combination of its architect, Guru Arjan Sahib, with 'Hari' or 'god' and 'mandre', meaning 'house'. As it is alternately called Darbar, meaning 'assembly hall', The original structure was built in the late 1500s. However, it was reconstructed after damage from Afghan invaders, with its surface covered in gilt and gold foil. This covering has granted it its more general name, the Golden Temple."/>
+                  <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONSTRUCTION"
+                android:textColor="#FF9800"
+                android:textSize="30dp"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:text="* The Golden Temple, or Harmandir Sahib, is the focus of a complex of buildings that form the heart of Sikhism. The temple itself occupies a small island in the center of a tank, or pool, called the Amrita Saras the source of the city’s name—and is connected to land on its west side by a marble causeway running across the pool. Situated facing the entrance to the causeway is the Akal Takht, the chief center of authority of Sikhism and the headquarters of the Shiromani Akali Dal, the main political party of the Sikhs in Punjab. On the north side of the tank is the main entrance to the complex and the Teja Singh Samudri Hall, which houses the main offices of the Shiromani Gurdwara Parbandhak Committee, which oversees the main Sikh gurdwaras."/>
+                     <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:text="* Among several buildings on the east side of the tank are the Assembly Hall and the Guru Ram Das Langar, the latter a large dining hall that serves meals to thousands of pilgrims and other visitors each day."/>
+
+                   <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="For more Information,"
+                android:textColor="#FF9800"
+                android:textSize="23dp"
+                android:textStyle="bold"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/goldinfo"
+                android:text="Click here"
+                android:textColor="#FFC107"
+                android:textStyle="italic"
+                android:background="@drawable/login_background"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Opening Time"
+                android:textColor="#FF9800"
+                android:textSize="24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4:00 am – 10:00 pm"
+                android:textSize="22dp"
+                android:textColor="#FB5622"/><TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=". The temple remains open throughout the year. If someone wants to avail the Divya Darshan Seva, then they will need to pay INR 100. The Seva happens during Sundays and Saturdays. There is no entry fee levied for entering the temple or the park. "
+            android:textColor="@color/white"
+            android:textSize="18dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Special Bocking"
+                android:textSize="18dp"
+                android:textColor="#FFEB3B"
+                android:id="@+id/goldbtn"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
